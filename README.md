@@ -5,16 +5,27 @@
 * **Directions**
 
 * To run app locally
+
   * npm install 
+  
+  * Open mySQL workbench create new connection 
+
+  * Open Heroku create new app 
+  
+  * Goto Resources add-ons JawsDB free version
+
+  * Put in Heroku JAWSDB username, pw, host, port in APP's config => connections.js
+
+  * USE JawsDB connection string 
 
   * Open new Mysql database input db schema and seeds.
 
-  * Put in Heroku JAWSDB username, pw, host, port in config => connections.js
+  * Back to heroku and deploy 
 
-  or
+    or
 
   * Visit https://habibicatapp.herokuapp.com/ 
-  
+    
  
 
 
