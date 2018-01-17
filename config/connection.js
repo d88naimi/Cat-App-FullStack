@@ -5,14 +5,14 @@ var connection;
 
 
 if (process.env.JAWS_URL) {
-  connection.mysql.createConnection(process.env.JAWS_URL);
+  connection = mysql.createConnection(process.env.JAWS_URL);
 } else {
   connection = mysql.createConnection({
     port: 3306,
     host: "gx97kbnhgjzh3efb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     user: "tltsbtksxyugwtp7",
     password: "mfsjiiuvgwm2apde",
-    database: "cat_db"
+    database: "byuyl9ge18sba315"
   });
 }
 
