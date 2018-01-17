@@ -10,6 +10,8 @@
   * Open new Mysql database input db schema and seeds.
 
   * Put in Heroku JAWSDB username, pw, host, port in config => connections.js
+
+  * Visit https://habibicatapp.herokuapp.com/ 
   
  
 
